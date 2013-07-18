@@ -1,4 +1,4 @@
-CHEF=/var/lib/gems/1.9.1/bin/chef-solo
+CHEF=/usr/local/bin/chef-solo
 
 if ! test -f "$CHEF"; then
   export DEBIAN_FRONTEND=noninteractive
