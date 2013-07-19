@@ -1,3 +1,3 @@
 site :opscode
 
-cookbook 'pypy', git: 'https://github.com/michaelklishin/pypy-chef-cookbook.git'
+cookbook 'pypy', git: 'git@github.com:cschwartz/pypy-chef-cookbook.git'
