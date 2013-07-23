@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "pypy": {
+      "path": "../../projects/pypy-chef-cookbook"
+    },
+    "simpy": {
+      "path": "../simpy"
+    }
+  }
+}

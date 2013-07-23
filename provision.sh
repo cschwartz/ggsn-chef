@@ -8,6 +8,7 @@ if ! test -f "$CHEF"; then
   gem1.9.1 install --no-rdoc --no-ri chef berkshelf
 fi
 
+git clone git@github.com:cschwartz/ggsn-chef.git
+cd ggsn-chef
 berks install --path cookbooks/
-
-sudo $CHEF -c solo.rb -j solo.json
+sudo $CHEF -c solo.rb -j node.json
