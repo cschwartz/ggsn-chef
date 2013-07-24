@@ -18,3 +18,5 @@ _yardoc
 doc/
 
 .vagrant
+deploy_key
+deploy_key.pub
