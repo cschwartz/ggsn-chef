@@ -1,10 +1,14 @@
 {
   "sources": {
     "pypy": {
-      "path": "../../projects/pypy-chef-cookbook"
+      "locked_version": "0.0.0",
+      "git": "git://github.com/cschwartz/pypy-chef-cookbook.git",
+      "ref": "35046eff5bc7c8ec451d3fd41d0c944ba279280b"
     },
     "simpy": {
-      "path": "../simpy"
+      "locked_version": "0.1.0",
+      "git": "git://github.com/cschwartz/chef-cookbook-simpy.git",
+      "ref": "e5d6a1338c927e8afbfb7e51b2961f518838ee86"
     }
   }
 }
