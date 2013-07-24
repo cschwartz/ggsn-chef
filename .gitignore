@@ -21,3 +21,4 @@ doc/
 deploy_key
 deploy_key.pub
 Berksfile.lock
+Gemfile.lock
