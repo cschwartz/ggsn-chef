@@ -1,6 +1,7 @@
 {
   "run_list": [
-    "recipe[ggsn-simulation-chef]"
+    "recipe[ggsn-simulation-chef]",
+    "recipe[tmux]"
   ]
 }
 
