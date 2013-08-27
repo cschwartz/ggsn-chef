@@ -13,7 +13,12 @@ if ! test -f "`which git`"; then
 fi
 
 export GIT_SSH="`pwd`/ssh_git"
-git clone git://github.com/cschwartz/ggsn-chef.git
-cd ggsn-chef
+if [ -d "ggsn-chef" ]; then
+  cd ggsn-chef
+  git pull
+else
+  git clone git://github.com/cschwartz/ggsn-chef.git
+  cd ggsn-chef
+fi
 berks install --path cookbooks/
 sudo $CHEF -c solo.rb -j node.json
