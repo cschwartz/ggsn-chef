@@ -1,4 +1,4 @@
-HOST="brewmaster"
+HOST=$1
 ssh-copy-id $HOST
 scp provision.sh $HOST:.
 scp ssh_git $HOST:.
